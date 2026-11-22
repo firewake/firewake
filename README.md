@@ -1,24 +1,35 @@
-# Firewake
+# firewake
 
-An extensible, model-driven code generation platform.
+firewake is a toolkit for declaring and validating project workspaces, with a longer-term goal of model-driven code generation and reusable plugins.
 
-Firewake aims to provide a modular foundation for generating, validating and managing software projects using declarative models and reusable plugins.
+The project is early. Expect breaking changes.
 
-## Architecture
+## Packages
 
-The project is organized as a pnpm monorepo using Turborepo.
+| Package                             | Description                         |
+| ----------------------------------- | ----------------------------------- |
+| [`@firewake/core`](./packages/core) | Library for workspace configuration |
+| [`firewake`](./packages/cli)        | Command-line interface              |
 
-Planned components:
+## Requirements
 
-- **Core:** Model processing, validation and code generation.
-- **SDK:** Public interfaces for plugin development.
-- **CLI:** Command-line interface for initialization and generation.
-- **Plugins:** Framework-specific integrations and templates.
-- **Studio:** Local web interface for managing Firewake projects.
+- Node.js 24 (`>=24.11.0 <25`)
+- pnpm 12.21.0
 
-## Status
+## Getting started
 
-Early development. APIs and project structures are subject to change.
+```sh
+pnpm install
+pnpm build
+```
+
+Useful scripts:
+
+```sh
+pnpm test
+pnpm lint
+pnpm typecheck
+```
 
 ## Website
 

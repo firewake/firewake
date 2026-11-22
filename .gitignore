@@ -1,6 +1,12 @@
 node_modules/
 dist/
 .turbo/
+*.tsbuildinfo
+coverage/
+
+package-lock.json
+yarn.lock
+
 .env
 .env.*
 !.env.example
