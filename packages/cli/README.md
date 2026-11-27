@@ -15,6 +15,14 @@ Then run the CLI from `packages/cli` (or via your local package binary setup).
 
 ## Commands
 
+### `firewake new <name>`
+
+Creates a new project directory with `firewake/firewake.yaml` inside.
+
+```sh
+firewake new my-app
+```
+
 ### `firewake validate`
 
 Checks that the current directory has a valid firewake workspace configuration (`firewake/firewake.yaml`).

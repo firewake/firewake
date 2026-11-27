@@ -6,6 +6,7 @@ Use it when you need to resolve a project’s `firewake/firewake.yaml`, check th
 
 ## Features
 
+- Create a new workspace directory with `firewake/firewake.yaml`
 - Resolve workspace config from a project directory
 - Validate config structure and required fields
 - Typed workspace result for successful loads
